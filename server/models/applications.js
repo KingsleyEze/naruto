@@ -1,3 +1,4 @@
+// Model for applications table
 module.exports = (sequelize, DataTypes) => {
   const applications = sequelize.define(
     "applications",

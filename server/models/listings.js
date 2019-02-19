@@ -1,4 +1,4 @@
-"use strict";
+// Model for listings table
 module.exports = (sequelize, DataTypes) => {
   const listings = sequelize.define(
     "listings",
@@ -11,9 +11,6 @@ module.exports = (sequelize, DataTypes) => {
   );
   listings.associate = function(models) {
     // associations can be defined here
-    // listings.hasMany(models.applications, {
-    //   foreignKey: "listing_id"
-    // });
   };
   return listings;
 };

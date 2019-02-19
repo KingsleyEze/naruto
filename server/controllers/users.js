@@ -2,7 +2,6 @@ const users = require("../models").users;
 const applications = require("../models").applications;
 const listings = require("../models").listings;
 const companies = require("../models").companies;
-const teams = require("../models").teams;
 const sequelize = require("sequelize");
 
 module.exports = {

@@ -1,4 +1,4 @@
-"use strict";
+// Model for users table
 module.exports = (sequelize, DataTypes) => {
   const users = sequelize.define(
     "users",

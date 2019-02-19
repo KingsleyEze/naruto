@@ -1,4 +1,4 @@
-"use strict";
+// Model for teams table
 module.exports = (sequelize, DataTypes) => {
   const teams = sequelize.define(
     "teams",
